@@ -1,9 +1,11 @@
 ﻿{
-  "version": "1.0.0-rc",
+  "version": "1.0.0",
   "description": "EventBus pattern for C#",
   "authors": [ "UsameEsendir" ],
-  "tags": [ "eventbus" ],
-  "projectUrl": "https://github.com/esendir/EventBus",
+  "packOptions": {
+    "tags": [ "eventbus" ],
+    "projectUrl": "https://github.com/momenttechnologies/EventBus"
+  },
   "frameworks": {
     "net46": {
       "frameworkAssemblies": {
@@ -22,5 +24,8 @@
         "System.Threading": "4.0.11-beta-23516"
       }
     }
+  },
+  "buildOptions": {
+    "xmlDoc": true
   }
 }
