@@ -49,7 +49,8 @@ namespace EventBus
                     {
                         method.Invoke(instance, new object[] { e });
                     }
-                    catch (TargetInvocationException) { }
+                    catch (Exception ex) {
+                    }
                 }
             }
         }
